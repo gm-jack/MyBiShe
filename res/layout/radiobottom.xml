@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#ff0000"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/radio_btn1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="15sp" />
+
+    <RadioButton
+        android:id="@+id/radio_btn2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="15sp" />
+
+    <RadioButton
+        android:id="@+id/radio_btn3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="15sp" />
+
+    <RadioButton
+        android:id="@+id/radio_btn4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="15sp" />
+
+</RadioGroup>
